@@ -1,0 +1,176 @@
+* {
+    margin: 0px;
+    padding: 0;
+    color: #4e4e4e;
+}
+
+.wrapper{
+    width: 96%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 2%;
+}
+
+header{
+    padding: 25px 0px;
+    background: #e5e5e5;
+
+}
+.logo{
+    float: left;
+    text-indent: -1000px;    
+}
+
+header nav{
+    float: right
+}
+
+header nav li  {
+    float: left;
+    margin-left: 25px;
+    margin-top: 10px;
+    list-style-type: none;  
+}
+
+header nav li a{
+   text-decoration: none; 
+   font-weight: bold;
+   text-transform: uppercase;
+}
+    
+header:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+header .current{
+    color: #1abb9c;  
+}
+
+header .logo{
+    float: left;
+}
+
+#main_banner{
+     max-height: 500px;
+     overflow: hidden;
+}
+
+#main_banner img{
+    width: 100%;
+}
+
+#selling_points{
+    margin-top: 20px;
+}
+
+#selling_points li{
+    float: left;
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+    list-style-type: none;
+    line-height: 1.5em;
+}
+
+#selling_points li h3{
+    padding: 15px
+}
+
+#selling_points:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+#latest_works{
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 2px solid grey;
+}
+
+#latest_works h2{
+    padding: 15px
+}
+
+#latest_works li{
+    float: left;
+    width: 32%;
+    list-style-type: none;
+    text-align: left;
+    line-height: 1.5em;
+}
+#latest_works img{
+    width: 100%;
+}
+
+#latest_works li h3{
+    padding-top: 15px;
+}
+
+#latest_works li:nth-child(2){
+    padding: 0 2%;
+}
+
+#latest_works p{
+    line-height: 1.5em;
+}
+
+p.tags{
+    padding-bottom: 15px;
+    color: #aeaeae;   
+}
+
+#latest_works:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+#quote{
+    text-align: center;
+    margin-top: 30px;
+    padding: 40px 20%;
+    background-color: #efefef;
+    line-height: 1.5em;
+    font-size: 20px;
+}
+
+footer{
+    background: #202020;
+    padding: 30px;
+    
+}
+footer ul{
+    float: left;
+    width: 25%;
+    list-style-type: none;   
+}
+
+footer li{
+    color: #aaa;
+    width: 80%;
+    padding-bottom: 15px;
+    line-height: 1.3em;
+}
+
+footer h4{
+    text-transform: uppercase;
+}
+
+footer:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+footer .tw{
+    padding-left: 20px;
+    background: url(img/tweet.png) no-repeat 0px 5px;      
+}
+
+footer i{
+    padding-right: 5px;
+}
