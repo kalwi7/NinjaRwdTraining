@@ -18,8 +18,8 @@
                 
                 <nav>
                     
-                    <div id="burger_menu"></div>
-                    <ul>
+                    <div id="burger_menu"><i class="fas fa-bars"></i></div>
+                    <ul >
                         <li><a href="" class="current">Home</a></li>
                         <li><a href="">About</a></li>
                         <li><a href="">Journal</a></li>
@@ -33,7 +33,11 @@
         </header>
     
         <div id="main_banner">
-            <img src="img/baner.jpg" alt="banner">     
+            <picture>
+                <source srcset="img/banner-s.jpg" media="(max-width: 480px)">
+                <source srcset="img/baner-m.jpg" media="(max-width: 768px)">
+                <img srcset="img/baner.jpg" alt="banner">
+            </picture>    
         </div>
     
         <main class="wrapper">
@@ -120,7 +124,7 @@
                     </ul>
                     <ul>
                         <li><h4>About us</h4></li> 
-                        <li>Duis vel nisi erat. Vestibulum eget diam orci. Cras faucibus justo mauris, a imperdiet nunc aliquam ac. Morbi sodales sem sem, vel laoreet neque placerat eget. Etiam viverra est quis neque consequat, sit amet cursus eros vehicula. </li>
+                        <li>Duis vel nisi erat. Vestibulum eget diam orci. Cras faucibus justo mauris, a imperdiet nunc aliquam ac. Morbi sodales sem sem. </li>
                         <li>Integer et magna eu eros scelerisque iaculis. Ut lobortis bibendum turpis eu imperdiet. </li>           
                      </ul>
                   
@@ -130,4 +134,16 @@
         </footer>
 
 </body>
+
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>    
+<script src="menu.js"></script>    
+    
 </html>
+
+
+
+
+
