@@ -180,11 +180,63 @@ footer:after{
   clear: both;
     margin-top: 20px;
     padding-top: 20px;
-    borzder-top: 2px solid grey;
+    border-top: 2px solid grey;
 }
 
 #burger_menu{
     display: none;
+}
+
+.first_level li{
+    position: relative;
+    
+}
+
+.first_level > li{
+    height: 25px; 
+}
+
+.first_level li .second_level{
+    display: none;
+    position: absolute;
+    top: 25px;
+    background-color: #4e4e4e;
+    opacity: 0.9;
+    
+}
+
+.first_level li .second_level li{
+    width: 97px;
+    text-align: left;
+    margin: 0;
+    padding-left: 2px;
+    line-height: 1.9em;
+    border-bottom: 2px solid grey;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    font-size: 14px;
+    
+    
+}
+
+.first_level li .second_level li a{
+    display: block;
+    color:beige
+}
+
+.first_level li .second_level li a:hover{
+    background-color: cornsilk;
+    color: black;
+}
+
+.first_level li:hover .second_level{
+    display: block;
+    width: 100px;
+    
+}
+
+.first_level li:hover{
+    color: #1abb9c;
 }
 
 /*MEDIA QUERIES*/
@@ -325,9 +377,10 @@ footer ul:nth-child(odd){
     header nav ul.open{
         height: auto;
     }
-    
-  
+     
 }
+
+
 
 
 
